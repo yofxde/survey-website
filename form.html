@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width,
+  initial-scale=1.0">
+  <title>Survey Form</title>
+
+
+  <! --css file link -->
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <div class="container">
+<header class="header">
+<h1 id="title">
+    Survey from WEBHUB
+    </h1>
+    <p id="description">
+    Thank you for taking the time to help us improve the platform
+  </p>
+
+
+
+</header>
+<form action="" id="Survey-form"
+< ! -- Text section -->
+<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text"
+    name="name" id ="name"
+    class="formControl"
+    placeholder="Enter your name"
+    required>
+</imput>
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email"
+    name="email" id ="email"
+    class="formControl"
+    placeholder="Enter your email"
+    required>
+
+</div>
+<div class="form-group">
+    <label for="phone">Phone Number
+    </label>
+    <input type="number"
+    name="phone" id="phone"
+    class="formControl"
+    placeholder="Enter your phone number" required>
+    </div>
+        </div>
+        <div class="form-group">
+            <label for="address">Address<span class="clue">(optional)</span>
+            </label>
+            <input type="text"
+            name="address" id="address"
+            class="formControl"
+            placeholder="Enter your address" required>
+            </div>
+            <div class="form-group">
+                <p id="quest">Which of the following affiliations best describes your current association?
+                </p>
+                <select name="role"
+                id="dropdown"
+                class="formControl"
+                required>
+                <option value="Student">
+                    Student</option>
+                    <option value="Employee (Full-time)" >
+                        Employee (Full-time)</option>
+                        <option value="Employee (Part-time)" >
+                            Employee (Part-time)</option>
+                            <option value="Homemaker" >
+                                Homemaker</option>
+                                <option value="Self-employed" >
+                                    Self-employed</option>
+                                    <option value="Retired" >
+                                        Retired</option>
+                                        <option value="Unemployed">
+                                            Unemployed</option>
+                                            <option value="Other" >
+                                                Other</option>
+                               
+                ></select>
+                <div class="form-group">
+                    <p id="quest">Give us your
+                    feedback</p>
+                    <textarea name="feedback"
+                    id="feedback" cols="30"
+                    rows="5" class="textarea"
+                    placeholder="Enter your feedback here..."></textarea>
+                    </div>
+</body>
+</html>
+
